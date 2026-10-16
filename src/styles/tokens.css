@@ -1,0 +1,47 @@
+:root {
+  /* Locked Design Brief foundation; shell-specific sizing is documented below. */
+  --color-ink: #10100f;
+  --color-charcoal: #191917;
+  --color-paper: #f2efe8;
+  --color-cream: #f6f1e8;
+  --color-muted: #a7a39a;
+  --color-line: #34332f;
+  --color-ember: #f06a2a;
+  --color-focus: var(--color-cream);
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-ui: system-ui, sans-serif;
+  --font-size-display-min: 44px;
+  --font-size-display-max: 76px;
+  --font-size-body: 16px;
+  --font-size-section: 24px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --radius-control: 8px;
+  --radius-card: 10px;
+  --radius-panel: 12px;
+  --border-width: 1px;
+  --container-max: 1440px;
+  --page-gutter: clamp(16px, 3vw, 48px);
+  --duration-fast: 120ms;
+  --duration-slow: 220ms;
+  --ease-default: ease-out;
+
+  /* Two readable shell columns wrap by available content width, not device labels. */
+  --shell-column-min: 24rem;
+  /* Locked accessibility target for the shell's native controls. */
+  --target-size: 44px;
+
+  /* Readable card metadata and the measured warm-red inline error treatment. */
+  --font-size-meta: 14px;
+  --color-error: #f3a095;
+}

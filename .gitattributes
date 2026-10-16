@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve accepted specification bytes, including governing CRLF inputs.
+docs/planning/*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
